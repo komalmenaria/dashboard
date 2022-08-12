@@ -1,0 +1,199 @@
+p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.background{
+    color: #252b3b !important;
+}
+.weather-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background: #1d222e;
+    width: 60%;
+    padding: 0 12px;
+}
+
+.weather-def-box{
+    display: flex;
+    flex-direction: column;
+    background: #252b3b;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    justify-content: space-between;
+}
+.weather-heading ,.weather-minmax  {
+    display: flex;
+    justify-content: space-between;
+}
+.weather-heading > img{
+    width: 20px;
+}
+.temprature-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0;
+}
+.weather-minmax , .weather-limits{
+    
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(155, 152, 152);
+}
+.weather-limits{
+   /* margin-left: -280px; */
+}
+.tempratureName{
+    font-size: 14px;
+    color: #fff;
+}
+
+.temprature{
+    font-size: 23px;
+    font-weight: bold;
+}
+.weather-minmax{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DETAILS */
+
+.address-weather-details{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #252b3b;
+    height: 100vh;
+    padding: 20px 10px;
+}
+
+.address-weather-details > h1{
+    font-size: 25px;
+}
+.address-weather-details > p{
+    font-size: 15px;
+    color: rgb(138, 136, 136);
+   
+}
+
+.address-weather-details > div > span{
+    font-size: 12px;
+    color: rgb(138, 136, 136);
+}
+
+.address{
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(138, 136, 136);
+}
+.side-menus{
+    display: flex;
+
+}
+.side-menus > li{
+    list-style: none;
+    padding: 0 20px;
+}
+.side-menus > li > img{
+    width: 20px;
+}
+.dashboard-all-components{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/*  menu  */
+
+.dashboard-menu-page{
+   width: 20%;
+    padding: 10px ;
+}
+.dashboard-menu-page > ul > h6{
+    font-size: 15px;
+    color: rgb(138, 136, 136);
+}
+.menu-list{
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list > li{
+    margin: 15px 0;
+    color: rgb(153, 152, 152);
+}
+.button-drop{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.button-drop:active , .button-drop:hover{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.dropdown-treatment{
+    background: none !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+.item-dropdown{
+    color: rgb(153, 152, 152) !important;
+    text-decoration: none !important;
+}
+.item-dropdown > span{
+    text-decoration: none !important;
+}
+
+.dashnav{
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+}
+.dashnav > li{
+    list-style: none;
+    padding: 5px 15px;
+}
+.dashnav > li > a , .dashnav span{
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+.dashnav > li > a:active , .dashnav span{
+    color: #fff;
+}
+
